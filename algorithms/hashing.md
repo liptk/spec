@@ -4,7 +4,7 @@
 
 ### `SHA256` (`0x01`)
 
-### Digest parameters
+#### Digest parameters
 
 | length   | parameter    |
 | -------- | ------------ |
@@ -12,7 +12,7 @@
 
 ### `SHA512` (`0x02`)
 
-### Digest parameters
+#### Digest parameters
 
 | length   | parameter    |
 | -------- | ------------ |
