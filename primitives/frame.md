@@ -28,4 +28,4 @@ A frame is a container for any primitive (except itself), and each primitive has
 | [DerivedKey](./keys/derived-key.md)     | `0x??` |
 | [SealedBox](./boxes/sealed-box.md)      | `0x??` |
 | [SignedBox](./boxes/signed-box.md)      | `0x??` |
-| [TaggedBox](./boxes/signed-box.md)      | `0x??` |
+| [TaggedBox](./boxes/tagged-box.md)      | `0x??` |
