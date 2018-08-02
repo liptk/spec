@@ -6,7 +6,7 @@
 
 <h3 align="center">NOTE THIS SPECIFICATION IS UNDER DEVELOPMENT!</h3>
 
-LIPTK goal's are to provide a opinionated, yet flexible specification for providing cryptographic primitives (ie. cleartext, ciphertext, signatures, etc) with a way to encode and decode them safely.
+LIPTK's goals are to provide a opinionated, yet flexible specification for providing cryptographic primitives (ie. cleartext, ciphertext, signatures, etc) with a way to encode and decode them safely.
 
 ## Why LIPTK?
 
@@ -20,3 +20,7 @@ You can also draw parallels between **LIPTK** and the **OpenPGP message format**
 
 Rather than defining a strict specification on how you should talk, **LIPTK** provides you primitives you can use to compose your own conversation easily.
 For example, a format for encoding `ed25519` signature parameters is provided, and can be wrapped in a generic signature, which in turn can be passed over the network, without worrying how to externally specify what sort of signature it is. A **LIPTK** decoder implementation can then unwrap the signature to get it's parameters to verify data.
+
+## Implementations
+
+- [Rust](https://github.com/liptk/liptk-rs)
