@@ -1,8 +1,16 @@
 # Hashing
 
+## Algorithm IDs
+
+| id     | algorithm             |
+| ------ | --------------------- |
+| `0x01` | [`SHA256`](#sha256)   |
+| `0x02` | [`SHA512`](#sha512)   |
+| `0x03` | [`BLAKE2B`](#blake2b) |
+
 ## Algorithms
 
-### `SHA256` (`0x01`)
+### `SHA256`
 
 #### Digest parameters
 
@@ -10,7 +18,7 @@
 | -------- | ------------ |
 | 32 bytes | digest bytes |
 
-### `SHA512` (`0x02`)
+### `SHA512`
 
 #### Digest parameters
 
@@ -18,7 +26,7 @@
 | -------- | ------------ |
 | 64 bytes | digest bytes |
 
-### `BLAKE2B` (`0x03`)
+### `BLAKE2B`
 
 - Variable bit digests
 

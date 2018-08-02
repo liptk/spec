@@ -4,7 +4,7 @@ A tagged box contains a message and it's associated tag.
 
 ## Parts
 
-- The [Message](../message.md) that was signed
+- The [Message](../message.md) that was tagged
 - The [Tag](../tag.md) produced from a MAC algorithm
 
 ## Binary encoding
